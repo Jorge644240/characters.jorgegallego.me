@@ -1,0 +1,68 @@
+body
+{
+    font-family: cursive;
+    color: #FFFFFF;
+    transition: all 0.1s linear;
+}
+body.black
+{
+    background-color: black;
+}
+body.red
+{
+    background-color: red;
+}
+body.yellow
+{
+    background-color: yellow;
+    color: #000000;
+}
+body.green
+{
+    background-color: green;
+}
+h1
+{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1% auto;
+}
+.center
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+}
+h2
+{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+textarea
+{
+    border: 1px solid;
+    color: inherit;
+    background: none;
+    padding: 0.8rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+textarea:focus
+{
+    outline: none;
+}
+@media screen and (max-width: 400px)
+{
+    h1
+    {
+        font-size: 2rem;
+    }
+    h2
+    {
+        font-size: 1.5rem;
+    }
+}
